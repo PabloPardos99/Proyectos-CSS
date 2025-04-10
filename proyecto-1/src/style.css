@@ -1,0 +1,81 @@
+@import 'bulma/css/bulma.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --primary: #df5e47;
+  --secondary: #e7a678;
+  --accent: #7180F4;
+  --background: #F0F7FF;
+  --background2: #d6e5f5;
+  --foreground: #c4dae9;
+  --footer: #feffff;
+  --radius: 1rem;
+  --text: #000;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.page, .navbar {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../src/img/hero@2x.png');
+  /* background-position: top right; */
+  background-position-x: 520px;
+  /* background-position-y: 0px ; */
+  background-size: 1050px;
+  background-repeat: no-repeat;
+}
+
+.header {
+  font-family:"Bebas Neue", sans-serif;
+  color: #424241;
+  text-decoration: none;
+}
+
+.hero h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 96px; 
+  font-weight: 300;
+}
+
+.hero p {
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+}
+
+.smart {
+  color: #7EDAD2;
+}
+
+.cards {
+  font-family: 'Bebas Neue', sans-serif;
+  /* display: flex; */
+  justify-self: center;
+  margin-right: 200px;
+  margin-top: 40px;
+}
+
+.card-box {
+  width: 150px;
+}
+
+/* Movimiento de las tarjetas de proyectos */
+.businsess-planing,
+.finnancial-planing,
+.digital-marketing,
+.market-analysis {
+  transition: transform 0.3s ease-in-out;
+}
+
+.businsess-planing:hover,
+.finnancial-planing:hover,
+.digital-marketing:hover,
+.market-analysis:hover {
+  transform: translateY(-10px);
+}
