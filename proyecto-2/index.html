@@ -1,63 +1,136 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
-    <title>Proyecto 2 - Creative Agency</title>
-  </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <!-- NavBar -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-           <figure class="py-3 px-3">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/style.css">
+  <title>Proyecto 2 - Creative Agency</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <!-- NavBar -->
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <figure class="logo-item py-3">
             <img src="src/img/Livia..svg" alt="logo-brand">
-           </figure>
+          </figure>
 
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <!-- Navbar items -->
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-items navbar-start">
+            <a class="navbar-item">
+              Home
             </a>
-          </div>
-          <!-- Navbar items -->
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-items navbar-end">
-              <a class="navbar-item">
-                Home
-              </a>
-        
-              <a class="navbar-item">
-                About
-              </a>
 
-              <a class="navbar-item">
-                Service
-              </a>
+            <a class="navbar-item">
+              About
+            </a>
 
-              <a class="navbar-item">
-                Portfolio
-              </a>
+            <a class="navbar-item">
+              Service
+            </a>
 
-              <a class="navbar-item">
-                Blog
-              </a>
-              <div class="navbar-end">
-                <div class="navbar-item">
-                  <div class="buttons">
-                    <a class="button-contact button is-link is-inverted">Contact Us</a>
-                  </div>
+            <a class="navbar-item">
+              Portfolio
+            </a>
+
+            <a class="navbar-item">
+              Blog
+            </a>
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button-contact button is-link is-inverted">Contact Us</a>
                 </div>
               </div>
             </div>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="text-content column is-half">
+          <p>Hi, There!</p>
+          <h1 class="hero-text title">We are a growing-up Creative Agency from Indonesia!</h1>
+          <p>We provides you with modest and professional design templates that come from the synergy of design and
+            technology</p>
+            <div class="boton">
+              <a href="#" class="button is-primary is-large">Let's Collaborate ➡</a>
+            </div>    
+        </div>
+        <div class="column is-half">
+          <figure class="hero-image">
+            <img 
+            src="src/img/Mask Group@2x.png" 
+            alt="Hero Image" 
+            class="image is-half"
+            />
+          </figure>
+        </div> 
+      </div>
     </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products">
+   <div class="container">
+     <div class="columns is-vcentered mt-3 is-justify-content-space-between">
+       <div class="web-design">
+         <div class="box">
+           <a href="#" style="color: black;">
+             <figure>
+               <img src="src/img/Web Design.svg" alt="businsess-planing-icon" style="width: 50px;">
+             </figure>
+             <h2 class="title" style="color: black;" >Web Design Projects</h2>
+             <p>Lorem ipsum dolor sit, <br>
+               amet consectetur adipisicing elit. </p>
+           </a>
+         </div>
+       </div>
+       <div class="social-media">
+         <div class="box">
+           <a href="#" style="color: black;">
+             <figure>
+               <img src="src/img/Social Media.svg" alt="financial-planing-icon" style="width: 50px;">
+             </figure>
+             <h2 class="title" style="color: black;">Social Media Templates</h2>
+             <p>Lorem ipsum dolor sit, <br>
+               amet consectetur adipisicing elit. </p>
+           </a>
+         </div>
+       </div>
+
+       <div class="digital-artwork">
+         <div class="box">
+           <a href="#" style="color: black;">
+             <figure>
+               <img src="src/img/Design.svg" alt="digital-marketing-icon" style="width: 50px;">
+             </figure>
+             <h2 class="title" style="color: black;">Digital Marketing</h2>
+             <p>Lorem ipsum dolor sit, <br>
+               amet consectetur adipisicing elit. </p>
+           </a>
+         </div>
+       </div>
+     </div>
+ </section>
+<script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
