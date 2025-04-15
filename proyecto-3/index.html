@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es" class="theme-light">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto 3 - Coworking Space</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <figure class="logo-brand image">
+            <img src="src/img/Cozy Corner.svg" alt="Logo">
+          </figure>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <!-- Navbar Items -->
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-menu navbar-start">
+            <a class="navbar-item" style="color: #9B9A78;">
+              Home
+            </a>
+
+            <a class="navbar-item">
+              About
+            </a>
+
+            <a class="navbar-item">
+              Featured
+            </a>
+
+            <a class="navbar-item">
+              Blog
+            </a>
+
+            <a class="navbar-item">
+              More
+            </a>
+          </div>
+
+          <!-- Navbar loggin items -->
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="navbar-item">
+                <figure class="search-item mx-5">
+                  <img src="src/img/search.svg" alt="search-icon">
+                </figure>
+              </div>
+              <div class="buttons">
+                <a class="button is-light is-medium" style="color: #9B9A78;">
+                  <strong>Log in</strong>
+                </a>
+                <a class="button is-primary is-medium" style="background-color: #9B9A78; color: aliceblue;">
+                  <strong>Sign Up</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section>
+      <div class="container">
+        <div class="image">
+          <figure class="image-placeholder is-4by3">
+            <img src="src/img/Placeholder.png" alt="Placeholder" class="has-ratio" />
+          </figure>
+          <figure class="image is-3by2 overlay-figure">
+            <img src="src/img/Rectangle.png" alt="Placeholder-blur" class="has-ratio" />
+          </figure>
+        </div>
+        <div class="text-body">
+          <h1 class="text-hero title">Find your comfort working zone
+            with Cozy Corner
+          </h1>
+          <img src="src/img/Rectangle_text.png" alt="Rectangle_text" class="rectangle_text">
+          <p class="text-rectangle">
+          Change your work environment by using a co-working place, 
+            to meet new people and gain a new network
+          </p>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-half-tablet is-one-quarter-desktop">
+            <div class="mini-cards-left box virtual-office">
+              <img src="src/img/Check.svg" alt="Check" class="mx-2">
+              <h3 class="has-text-weight-bold">Virtual Office Setup</h3>
+            </div>
+            <div class="mini-cards-left box virtual-office">
+              <img src="src/img/Check.svg" alt="Check" class="mx-2">
+              <h3 class="has-text-weight-bold">Open Workspace</h3>
+            </div>
+            <div class="mini-cards-right box virtual-office">
+              <img src="src/img/Check.svg" alt="Check" class="mx-2">
+              <h3 class="has-text-weight-bold">Space for Event</h3>
+            </div>
+            <div class="mini-cards-right box virtual-office">
+              <img src="src/img/Check.svg" alt="Check" class="mx-2">
+              <h3 class="has-text-weight-bold">Chill Out Zone</h3>
+            </div>
+          </div>
+          <!-- Repetir para los otros elementos -->
+        </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Productos Section -->
+
+    <section class="products">
+      <div class="container">
+        <div class="products-cards columns is-vcentered mt-5 is-justify-content-space-around">
+          <div class="location">
+            <div class="box">
+              <a href="#" style="color: black;">
+                <figure>
+                  <img src="src/img/Location.svg" alt="businsess-planing-icon" style="width: 50px;">
+                </figure>
+                <h2 class="title">20+ Location</h2>
+                <p>Lorem ipsum dolor sit, <br>
+                  amet consectetur adipisicing elit. </p>
+              </a>
+            </div>
+          </div>
+          <div class="rooms-available">
+            <div class="box">
+              <a href="#" style="color: black;">
+                <figure>
+                  <img src="src/img/Room.svg" alt="financial-planing-icon" style="width: 50px;">
+                </figure>
+                <h2 class="title">324 Rooms Available</h2>
+                <p>Lorem ipsum dolor sit, <br>
+                  amet consectetur adipisicing elit. </p>
+              </a>
+            </div>
+          </div>
+
+          <div class="internet-connected">
+            <div class="box">
+              <a href="#" style="color: black;">
+                <figure>
+                  <img src="src/img/wifi.svg" alt="digital-marketing-icon" style="width: 50px;">
+                </figure>
+                <h2 class="title">100% Internet Connected</h2>
+                <p>Lorem ipsum dolor sit, <br>
+                  amet consectetur adipisicing elit. </p>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
