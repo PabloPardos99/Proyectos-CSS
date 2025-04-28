@@ -21,6 +21,7 @@
   box-sizing: border-box;
 }
 
+
 .page {
   background-image: url('../img/backgroundX2.png');
   background-position: top right;
@@ -48,14 +49,32 @@
   padding: 50px;
 }
 
+/* Texto */
 
 .titulo {
+  position: relative;
   width: 900px;
   font-size: 72px;
   font-family: "Belgrano", serif;
   /* margin-top: 0px; */
   line-height: 1.3;
 }
+
+/* Posicionamiento del circulo y linea roja */
+
+.circulo {
+  position: absolute;
+  top: 175px;
+  right: 1350px;
+  width: 270px;
+}
+
+.linea {
+  position: absolute;
+  bottom: 458px;
+}
+
+
 
 .subtitulo {
   margin-top: 30px;
@@ -89,6 +108,9 @@
 
 /* Diseño de la carta de creador */
 
+.nft {
+  height: 0px;
+}
 .nft__imageContainer {
   position: relative;
   left: 975px;
