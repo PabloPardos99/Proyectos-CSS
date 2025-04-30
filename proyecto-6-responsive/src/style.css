@@ -1,0 +1,179 @@
+@import 'bulma/css/bulma.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belgrano&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  /* Colores */
+  --blue: #666CA3;
+  --black: #13183F;
+  --gray: #83869A;
+  --pink: #F74780;
+  --light-pink: #FFA7C3;
+  --white: #FFFF;
+  --background-body: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+
+  --gradient-pink-orange: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  --gradient-pink-blue: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+
+  /* Fonts */
+  --primary-font: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background: var(--background-body);
+}
+
+/* Header */
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+/* Button Navbar */
+
+.button-navbar { 
+  background-color: var(--black);
+  color: var(--white);
+  width: 150px;
+  height: 50px;
+}
+
+.text-button {
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  height: 720px;
+}
+.titulo {
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.subtitulo {
+  margin-top: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray);
+}
+
+.button-hero {
+  margin-top: 26px;
+}
+
+.btton {
+  width: 167px;
+  height: 56px;
+  background: var(--gradient-pink-orange);
+  color: var(--white);
+}
+
+/* Image Hero */
+
+.image-box {
+  margin-top: 68px;
+  margin-left: 35px;
+}
+
+.image-hero {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  /* max-width: 80%; */
+}
+
+/* Cards Hero Image */
+
+.card-1 {
+  position: relative;
+  padding: 25px;
+  width: 160px;
+  bottom: 100px;
+  right: 25px;
+}
+
+.card-2 {
+  position: relative;
+  padding: 25px;
+  width: 120px;
+  height: 100px;
+  bottom: 460px;
+  left: 220px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Movimiento de las cards */
+.card-1,
+.card-2 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-1:hover,
+.card-2:hover {
+  transform: translateY(-10px);
+}
+
+/* Products Section */
+
+.info_card {
+  background: var(--gradient-pink-orange);
+  height: 120px;
+  align-content: center;
+  text-align: center;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* Products Cards */
+
+.cards {
+    margin-top: 16px;
+    padding: 20px;
+}
+
+.title-card {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.subtitle-card {
+  font-weight: 500;
+  font-size: 19px;
+  color: var(--gray);
+  margin-top: 20px;
+  line-height: 1.8;
+}
+
+.card-text-link {
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--pink);
+}
+
+/* Footer */
+.logo-brand {
+  position: relative;
+  color: var(--white);
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: var(--black);
+}
+
+.button-footer {
+  background: var(--gradient-pink-blue);
+  color: var(--white);
+}
