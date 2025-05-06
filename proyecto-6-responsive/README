@@ -1,0 +1,15 @@
+v1.0.1 
+//Diario de desarrollo//
+------------------------
+>06/05/25: 
+  He configurado del código para que sea responsiveness, para ello
+  he tenido que modificar el index.hmtl y el style.css. 
+  Para ello, he creado una carpeta llamada v1.0.0 en la cual he guardado la version primigenia del código,
+  sin ningún tipo de cambio. 
+  
+  También he añadido media queries al código para que las imagenes se vean bien en diferentes resoluciones. 
+
+  Me he quedado terminando la vista de tablet, me falta por ajustar la dispoisición de las 
+  cards de los productos para que estén en tipo flex o como un grid, para ello tendré que mirar como puedo 
+  hacerlo de tal manera que las tarjetas queden una al lado de la otra manteniendo su margen y separación. 
+  
