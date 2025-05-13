@@ -12,4 +12,21 @@ v1.0.1
   Me he quedado terminando la vista de tablet, me falta por ajustar la dispoisición de las 
   cards de los productos para que estén en tipo flex o como un grid, para ello tendré que mirar como puedo 
   hacerlo de tal manera que las tarjetas queden una al lado de la otra manteniendo su margen y separación. 
+
+>13/05/25: 
+  Hoy he terminado de realizar la vista responsiveness de tablet, 
+  para ello he consultado a la IA para que me ayudase con el grid de las tarjetas
+  de producto ya que no sabía muy bien como hacerlo. 
   
+  Las modificaciones que ha hecho la IA en el código están apuntadas en Notion, 
+  en la página de proyectos BulmaCSS > Proyecto 6.
+
+  Dichas modificaciones han sido el intetgrar la jerarquía de divs que utiliza Bulma para crear 
+  un grid mediante columns y colum para poder realizar el ajuste de cada tarjeta en su sitio. 
+  También ha implementado una vista responsiveness para la sección de productos destacados.
+
+  Las imagenes de esta vista y las tarjetas están finalmente bien colocadas y solo faltaría pasar a la 
+  resolución de desktop para que todo quede bien cuadrado, unicamente habría que comprobar que en todas las vistas
+  de tablet se ve bien el diseño, así como en mobile, ya que hay diferentes resoluciones dependiendo de cada dispositivo. 
+  
+

@@ -54,6 +54,7 @@ body {
 }
 
 /* Hero Section */
+
 .hero {
   height: 720px;
 }
@@ -205,11 +206,27 @@ body {
 
 /* TABLET */
 @media (min-width: 768px) {
+
+  .titulo {
+    width: 400px;
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 40px;
+  }
+
+  .subtitulo {
+    width: 400px;
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--gray);
+  }
+
   .image-hero-tablet {
     position: relative;
-    left: 400px;
-    bottom: 280px;
-    width: 500px;
+    left: 350px;
+    bottom: 350px;
+    width: 600px;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -219,7 +236,7 @@ body {
   .card-1 {
     position: relative;
     left: 350px;
-    bottom: 450px;
+    bottom: 550px;
     padding: 35px;
     width: 200px;
     margin-top: 0;
@@ -227,11 +244,11 @@ body {
 
   .card-2 {
     position: relative;
-    width: 135px;
-    height: 120px;
-    bottom: 1010px;
-    left: 610px;
-    padding: 30px;
+    width: 120px;
+    height: 110px;
+    bottom: 1150px;
+    left: 620px;
+    padding: 23px;
   }
 
   .card-subtitle {
@@ -241,14 +258,9 @@ body {
 
   /* Products Section */
 
-  .products {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .info_card {
     background: var(--gradient-pink-orange);
-    height: 120px;
+    height: 130px;
     align-content: center;
     text-align: center;
     color: var(--white);
@@ -271,10 +283,21 @@ body {
 
   .subtitle-card {
   font-weight: 500;
-  font-size: 19px;
+  font-size: 20px;
   color: var(--gray);
   margin-top: 20px;
   line-height: 1.8;
+  }
+
+  /* Ajuste de la tarjeta de design */
+  .design-card {
+    width: auto;
+    height: 365px;
+  }
+
+  .design-card .card-text-link {
+    position: relative;  
+    top: 35px;
   }
 
   .card-text-link {
@@ -283,16 +306,30 @@ body {
   color: var(--pink);
 }
 
+/* Footer */
+
+.footer {
+  height: 120px;
+  background-color: var(--black);
+  padding: 30px;
+}
+
+.footer-container {
+  position: relative;
+  top: 30px;
+ 
+}
+
+.logo-brand {
+  position: relative;
+  color: var(--white);
+}
 
 
-
-
-
-
-
-
-
-
+.button-footer {
+  background: var(--gradient-pink-blue);
+  color: var(--white);
+}
 }
 
 /* DESKTOP */
